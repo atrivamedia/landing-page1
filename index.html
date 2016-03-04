@@ -10,7 +10,8 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet">
+    <script src="js/wufoo.js"></script>
   </head>
 
   <body>
@@ -52,36 +53,31 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            
-<!-- Begin Wufoo signup form -->
-
-<div id="wufoo-zrtwtxn0chvz5v">
-Fill out my <a href="https://atrivamedia.wufoo.com/forms/zrtwtxn0chvz5v">online form</a>.
-</div>
-<!-- Wesley: remove wufoo style
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
--->
-<script type="text/javascript">var zrtwtxn0chvz5v;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'atrivamedia',
-'formHash':'zrtwtxn0chvz5v',
-'autoResize':true,
-'height':'242',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { zrtwtxn0chvz5v = new WufooForm();zrtwtxn0chvz5v.initialize(options);zrtwtxn0chvz5v.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
-
-
-<!-- End Wufoo Signup form -->
-
-
+            <!--begin Wufoo-->
+            <form id="form1" name="form1" class="wufoo  page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://atrivamedia.wufoo.com/forms/zrtwtxn0chvz5v/#public">
+              <h2>We'll inform you when it's ready</h2>
+              <ul>
+                <li id="foli1" class="notranslate">
+                  <div class="form-group">
+                    <label class="desc" id="title1" for="Field1"></label>
+                  
+                    <input id="Field0" name="Field0" type="email" spellcheck="false" class="field text medium form-control" placeholder="Please enter your email address" maxlength="255" tabindex="1" required />
+                  
+                  </div>
+                </li> 
+                <li class="buttons ">
+                  <div class="form-group">
+                    <input id="saveForm" name="saveForm" class="btTxt submit btn btn-default" type="submit" value="Keep attuned"/>
+                  </div>
+                </li>
+                <li class="hide">
+                  <label for="comment">Do Not Fill This Out</label>
+                  <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                  <input type="hidden" id="idstamp" name="idstamp" value="Gd9F2TtGRHEvtss2h7o/ipljyjkB3Y0sTzJ4A6kYWmk=" />
+                </li>
+              </ul>
+            </form>
+            <!--end Wufoo-->
 
           </div>     
         </div>
@@ -114,7 +110,6 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 
   ga('create', 'UA-74653656-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
   </body>
